@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <!-- Favicon -->
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<!-- OG-метки -->
+	<meta property="og:title" content="Заголовок страницы">
+	<meta property="og:description" content="Описание страницы">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row d-none d-lg-flex">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    <h1>Логотип</h1>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <p>
+                        Корпоративный сайт<br> современной компании
+                    </p>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end flex-wrap">
+                    <div class="tel d-none d-lg-block">
+                        <span>
+                            8 (800) 700-00-00
+                        </span>
+                        <p>
+                            Звонок по России бесплатный
+                        </p>
+                    </div>
+                    <button>Заказать звонок</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-lg-block opened menu-collapse">
+                    <nav>
+                        <ul class="menu d-block d-lg-flex">
+                            <li><a href="#">Компания</a></li>
+                            <li><a href="#">Каталог <i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="#">Услуги <i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="#">Проекты <i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 d-lg-none d-flex justify-content-between">
+                    <button class="menu-open"><i class="fa fa-bars"></i></button>
+                    <button>Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider-block">
+            <!-- использую slick-slider -->
+            <div class="slider">
+                <div class="slider-item first">
+                    <div class="container">
+                        <div class="slider-item-desc">
+                            <h2>Корпоративный сайт для всех</h2>
+                            <p>
+                                Готовое решение для юридических лиц и индивидуальных предпринимателей<br> для быстрого создания сайта.
+                            </p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item second">
+                    <div class="container">
+                        <div class="slider-item-desc">
+                            <h2>Быстрый старт</h2>
+                            <p>
+                                Всё готово для быстрого запуска<br> вашего корпоративного сайта
+                            </p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item three">
+                    <div class="container">
+                        <div class="slider-item-desc">
+                            <h2>Адаптация<br> под фирменный стиль</h2>
+                            <p>
+                                Неограниченная палитра цветов, универсальные текстуры и библиотека иконок — выбирайте любую гамму<br> без каких-то усилий, просто изменив пару строк.
+                            </p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <div class="about-item">
+                        <img class="icon-1" src="img/icon-1.png" alt="icon">
+                        <p>
+                            Низкие цены<br> и широкий ассортимент
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="about-item">
+                        <img class="icon-2" src="img/icon-2.png" alt="icon">
+                        <p>
+                            Широкая сеть представительств
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="about-item about-item--three">
+                        <img class="icon-3" src="img/icon-3.png" alt="icon">
+                        <p>
+                            Весь товар сертифицирован
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="about-item about-item--for">
+                        <img class="icon-4" src="img/icon-4.png" alt="icon">
+                        <p>
+                            Оперативная доставка<br> и выгрузка товара
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-block">
+        <video autoplay="" loop="" muted="" class="page-header-video">
+            <source src="video/video.webm" type="video/webm">
+            <source src="video/video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Создайте необходимую<br> атмосферу</h3>
+                    <p>Видеоконтент хорошо взаимодействует с пользователем<br> и помогает лучше понять информацию, которую вы хотите донести. Покажите кто вы и все вопросы исчезнут.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="services-start">
+                        <h4>Предоставляемые услуги</h4>
+                        <p>
+                            Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц.<br> Профессионализм и ответственность ключевые преимущества нашей компании.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-1.jpg" alt="photo">
+                        <h5>Строительство зданий</h5>
+                        <p>
+                            Осуществляется от имени и в интересах лиц, участвующих в деле: сторон, третьих лиц, заявителей и иных заинтересованных
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-2.jpg" alt="photo">
+                        <h5>Ремонт оборудования</h5>
+                        <p>
+                            Частичная или полная передача работ<br> по поддержке, обслуживанию<br> и модернизации ИТ-инфраструктуры...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-3.jpg" alt="photo">
+                        <h5>Проектирование зданий</h5>
+                        <p>
+                            Веб-разработчик знает, что впервые его. Значительно различается при<br> оценке качества восприятия макета.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-4.jpg" alt="photo">
+                        <h5>Аудит и консалтинг</h5>
+                        <p>
+                            Все аспекты, связанные с определением, достижением и поддержанием конфиденциальности, целостности... 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-5.jpg" alt="photo">
+                        <h5>Курсы английского</h5>
+                        <p>
+                            Проверка финансово-экономической деятельности организации,<br> проводимая аудитором.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <img src="img/services-img-6.jpg" alt="photo">
+                        <h5>Школа танцев</h5>
+                        <p>
+                            Выполнение специального аудиторского задания по рассмотрению бухгалтерских и налоговых отчетов экономического...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="consulting">
+                        <h6>Консультация по услугам</h6>
+                        <p>Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.</p>
+                        <a href="#">Задать вопрос</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="paralax-block">
+        <div data-parallax="scroll" data-image-src="img/paralax-fon.png" class="paralax-fon">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6>Создайте необходимую<br> атмосферу</h6>
+                    </div>
+                </div>
+            </div>
+            <a href="#header" class="go_to"><img src="img/arrow-top.png" alt="icon"></a>
+        </div>
+    </section>
+    <section class="form-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6>Готовы ответить<br>на ваши вопросы</h6>
+                    <p>Для этого обратитесь, пожалуйста, в Дирекцию по коммуникациям и связям с общественностью, отправив письмо на адрес info@kompany.ru или заполнив форму обратной связи.</p>
+                </div>
+                <div class="col-lg-6">
+                    <form action="successes.php" class="form js-form" id="popupResult" method="POST" novalidate="novalidate">
+                        <input type="text" name="name" placeholder="Ваше Имя">
+                        <input type="text" name="email" placeholder="E-mail">
+                        <input type="text" name="tel" placeholder="Ваш телефон">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label class="agree" for="agree">Я согласен на обработку персональных данных</label>
+                        <button data-submit="">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <a class="link-tel" href="tel:88007000000">8 (800) 700-00-00</a>
+                </div>
+                <div class="col-lg-5 d-flex">
+                    <ul class="links">
+                        <li><a class="link" href="#">Информация</a></li>
+                        <li><a href="#">Кампания</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Проекты</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="links">
+                        <li><a class="link" href="#">Магазин</a></li>
+                        <li><a href="#">Принтеры</a></li>
+                        <li><a href="#">Сканеры</a></li>
+                        <li><a href="#">Уличная мебель</a></li>
+                        <li><a href="#">Футболки</a></li>
+                        <li><a href="#">Фонари</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="social">
+                        <a href="https://vk.com" target="_blank"><i class="fab fa-vk"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="corparation d-flex justify-content-between">
+                        <p>© 2017 Все права защищены.</p>
+                        <p>Сделано в студии <span>«</span><a href="https://vk.com/ms_net">Медиасеть</a><span>»</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loader">
+        <img src="img/ripple.svg">
+    </div>
+        
+    <div class="overlay">
+        <div class="thx">
+            Спасибо! Мы обязательно с Вами свяжемся!
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
